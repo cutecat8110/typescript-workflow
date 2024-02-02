@@ -25,5 +25,5 @@ export enum BookCategory {
 
 export function getBookCategory(category: BookCategory) {
   // 在此實現函式
-  return `Book category: ${category}`;
+  return `Book category: ${BookCategory[category]}`;
 }
